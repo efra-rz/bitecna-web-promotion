@@ -2549,7 +2549,7 @@ body {
 .banner {
   width: 100%;
   height: 375px;
-  background-image: url(../img/banner.jpg);
+  background-image: url(../img/banner-bitecna.jpg);
   background-position: center;
   margin-bottom: 2em; }
 
@@ -2596,9 +2596,10 @@ body {
   margin-bottom: 1em; }
 
 .container ul li input {
-  width: 95%;
+  width: 100%;
   background-color: #fff;
-  padding: .3em .7em; }
+  padding: .3em .7em;
+  font-size: 20px; }
 
 .container h1 {
   text-align: center;
@@ -2674,3 +2675,6 @@ footer {
     background-color: #7EA1F6 !important;
     color: white;
     cursor: pointer; }
+
+.colortext {
+  color: #131B1E; }
