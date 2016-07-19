@@ -1,0 +1,147 @@
+body {
+  font-family: "Dosis",sans-serif;
+  font-weight: lighter;
+  font-size: 1.3em;
+  color:#696969;
+  }
+.franja{
+  padding:1em;
+  text-align: center;
+  background-color: #252525;
+  h1{
+    color:white;
+    margin: 0;
+    }
+  }
+.logisc{
+  margin-bottom: 1em;
+  }
+.banner{
+  width:100%;
+  height: 375px;
+  // background-image: url(http://placehold.it/1800x400);
+  background-image: url(https://www.forcepoint.com/sites/default/files/styles/hero_image/public/2016-tr-hero_0.jpg?itok=pz5ULE4W);
+  background-position: center;
+  margin-bottom: 2em;
+  }
+
+
+  .container{
+    max-width: 1100px;
+    margin:0 auto;
+    font-family: 'Oswald';
+    color:#fff;
+    padding:.5em;
+    }
+      .container .row{
+        display:flex;
+        flex-flow:row wrap;
+        align-items:center;
+
+        }
+      .container .row .col-50{
+        width:45%;
+        margin:2.5%;
+        }
+      .container .row .col-100{
+        width:95%;
+        margin:2.5%;
+        }
+    .container img{
+      max-width: 100%;
+      }
+    .container form{
+      max-width: 100%;
+      }
+    .container form ul{
+      list-style-type: none;
+      background-color: #E6E6E6;
+      padding:1.5em;
+      }
+    .container form ul h2{
+      text-align: center;
+      color:#4E608C;
+      font-size: .9em;
+      }
+    .container ul li{
+      margin-bottom: 1em;
+      }
+    .container ul li input{
+      width:95%;
+      background-color: #fff;
+      padding:.3em .7em;
+      }
+    .container h1{
+      text-align: center;
+      font-size: 2em;
+    }
+
+    ::-webkit-input-placeholder {
+       color: #4E608C;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+       color: #4E608C;
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+       color: #4E608C;
+    }
+
+    :-ms-input-placeholder {
+       color: #4E608C;
+    }
+    .sitio-construccion{
+      font-size: 4em !important;
+      }
+    input:focus {
+    background-color:#f3f3f3;}
+    .btn-send{ max-width:150px;color:black;}
+    .btn-send:hover{color:red;cursor:pointer;}
+
+    .container h1 .datos-enviados{
+      font-size: 8em;
+      color:red;
+      }
+.btn-send{
+  max-width: 150px;
+  color: white;
+  font-family: Dosis;
+  font-size: 1.5em;
+  background-color: #4E608C !important;
+  border: 0px;
+  border-radius: .2em;
+  &:hover{
+    background-color: #7EA1F6 !important;
+    color:white;
+    cursor:pointer;
+    }
+  }
+footer{
+  margin-top: 2em;
+  h2{
+    color:#f3f3f3;
+    font-size: 1em;
+    text-align: center;
+    margin:0;
+    }
+  }
+  .franja-footer{
+    background-color: #4d4d4d;
+    }
+.btn-download{
+  color: white;
+  padding:.3em 1em;
+  font-family: Dosis;
+  font-size: 3.1em;
+  background-color: #4E608C !important;
+  border: 0px;
+  border-radius: .2em;
+  margin-top:3em;
+  height:auto;
+  &:hover{
+    background-color: #7EA1F6 !important;
+    color:white;
+    cursor:pointer;
+    }
+  }

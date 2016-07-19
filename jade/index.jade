@@ -1,49 +1,52 @@
 doctype html
-html(lang="es")
+html(lang="en")
   head
     meta(charset="UTF-8")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+    meta(name="robots" content="noindex")
+    meta(name="googlebot" content="noindex")
     link(rel="stylesheet", href="css/main.css")
-    title ED-GRID
+    title ISCOR - Informe de Amenazas Globales 2016
   body
-    header
-      .ed-container
-        .ed-item.web-20
-          img(src="img/logo.png").logo
-        .ed-item.web-80.main-end.cross-center
-          | Versión 1.3
-    nav
-      .ed-container
-        .ed-item
-          ul.ed-menu.nav-bar.web-horizontal
-            li
-              a(href="#") Item 1
-              ul
-                li: a(href="#") Subitem 1
-                li: a(href="#") Subitem 2
-                li
-                  a(href="#") Subitem 3
-                  ul
-                    li: a(href="#") Sub-item 1
-                    li: a(href="#") Sub-item 2
-                    li: a(href="#") Sub-item 3
-                    li: a(href="#") Sub-item 4
-                li: a(href="#") Subitem 4
-            li: a(href="#") Item 2
-            li: a(href="#") Item 3
-            li: a(href="#") Item 4
-            li: a(href="#") Item 5
-            li: a(href="#") Item 6
-            li: a(href="#") Item 7
+    header.franja
+      h1
+        | Informe de Amenazas Globales 2016 de Forcepoint
+    section.banner
     .ed-container
-      .ed-item.web-75
-        h2 ¿Qué es ED GRID?
-        p ED GRID es un framework para Responsive Web Design construido en español, con Sass y mucho café.
-        p Con ED GRID puede crear layouts y prototipos responsive con mucha facilidad, con una metodología fácil de aprender.
-        p ED GRID 1.3 viene con Flexbox. Adios a los floats
-        p Esta versión incluye botones y menús desplegables.
-        a.button.round Este es un boton
-      .ed-item.web-25.abcenter
-        a(href="http://escueladigital.pe" target="_blank") Escuela Digital
-    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
-    script(src="js/scripts.js")
+      .ed-item.web-65
+        img.logisc(src="img/logo.png", alt="")
+        p  Tendencias de amenazas a los datos de las que su organización debe defenderse inmediatamente en 2016
+        p El Informe de Amenazas Globales 2016 de Forcepoint es el análisis concluyente de las amenazas a la seguridad cibernética más disruptivas que su empresa enfrenta actualmente.
+        p Nuestro equipo exclusivo de Investigaciones Especiales ha descubierto un botnet nunca antes identificado y ha documentado varias tendencias clave en amenazas cibernéticas. Al finalizar cada sección del informe, ofrecemos nuestro experimentado asesoramiento sobre cómo proteger mejor a su organización.
+        p Conozca más sobre:
+        ul
+          li Cómo evitar convertirse en una amenaza interna involuntaria.
+          li Cómo las amenazas están evolucionando en capacidad mientras los perímetros de seguridad tradicionales se disuelven.
+          li El primer caso de estudio directo de Forcepoint referente a la protección de una compañía de seguridad cibernética durante una adquisición.
+          li Reciba hoy mismo copia del informe.
+      .ed-item.web-35
+        .container
+          form.contacto__form(action='http://efrix.net/form/iscor-download-report.php', method='post')
+            ul
+              li
+                h2
+                  | LLENE EL SIGUIENTE FORMULARIO Y TENGA ACCESO AL REPORTE
+              li
+                input(type='text', name='nombre', placeholder='NOMBRE', required='required')
+              |             
+              li
+                input(type='text', name='correo', placeholder='E-MAIL', required='required')
+              |   
+              li
+                input(type='text', name='telefono', placeholder='TELEFONO', required='required')
+              |                                    
+              li
+                input(type='text', name='empresa', placeholder='EMPRESA', required='required')
+              |                          
+              li
+                input#boton.btn-send(type='submit', value='Enviar')
+    footer.franja.franja-footer
+      h2 Iscor agradece su preferencia
+      
+        
+      
