@@ -1,5 +1,6 @@
 body {
   font-family: "Dosis",sans-serif;
+  background-color: $color5;
   font-weight: lighter;
   font-size: 1.3em;
   color:#696969;
@@ -7,9 +8,9 @@ body {
 .franja{
   padding:1em;
   text-align: center;
-  background-color: #252525;
+  background-color: $color4;
   h1{
-    color:white;
+    color:#E62126;
     margin: 0;
     }
   }
@@ -20,7 +21,7 @@ body {
   width:100%;
   height: 375px;
   // background-image: url(http://placehold.it/1800x400);
-  background-image: url(https://www.forcepoint.com/sites/default/files/styles/hero_image/public/2016-tr-hero_0.jpg?itok=pz5ULE4W);
+  background-image: url(../img/banner.jpg);
   background-position: center;
   margin-bottom: 2em;
   }
@@ -30,7 +31,7 @@ body {
     max-width: 1100px;
     margin:0 auto;
     font-family: 'Oswald';
-    color:#fff;
+    color:$color1;
     padding:.5em;
     }
       .container .row{
@@ -55,12 +56,12 @@ body {
       }
     .container form ul{
       list-style-type: none;
-      background-color: #E6E6E6;
+      background-color: #212424;
       padding:1.5em;
       }
     .container form ul h2{
       text-align: center;
-      color:#4E608C;
+      color:#A20014;
       font-size: .9em;
       }
     .container ul li{
@@ -108,11 +109,11 @@ body {
   color: white;
   font-family: Dosis;
   font-size: 1.5em;
-  background-color: #4E608C !important;
+  background-color: #A20014 !important;
   border: 0px;
   border-radius: .2em;
   &:hover{
-    background-color: #7EA1F6 !important;
+    background-color: #ED1C24 !important;
     color:white;
     cursor:pointer;
     }
@@ -127,7 +128,7 @@ footer{
     }
   }
   .franja-footer{
-    background-color: #4d4d4d;
+    background-color: $color4;
     }
 .btn-download{
   color: white;
